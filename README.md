@@ -1,10 +1,13 @@
 # ChatGPT Web New
 ## 项目来源
-- 源自项目仓库: [Chanzhaoyu](https://github.com/Chanzhaoyu/chatgpt-web) [项目预览](https://github.com/Chanzhaoyu/chatgpt-web)
+- 源自项目仓库: [Chanzhaoyu](https://github.com/Chanzhaoyu/chatgpt-web)
 
+- 此项目是基于： [Kerwin1202](https://github.com/Kerwin1202/chatgpt-web)
 
 ## 此项目预览 
+
 - 续接项目仓库 [Ai.Bot-t.me](https://ai.bot-t.me)
+
 由于原项目长期未更新，我希望通过添加以下功能来继续发展此项目:
 1. 使用 OAuth 实现登录功能
 2. 更新 UI 框架
