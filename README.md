@@ -1,7 +1,5 @@
 # ChatGPT Web New
 
-## 项目来源
-
 - **源自项目仓库**: [Chanzhaoyu](https://github.com/Chanzhaoyu/chatgpt-web)
 - **基于项目仓库**: [Kerwin1202](https://github.com/Kerwin1202/chatgpt-web)
 - **项目预览Web**: [Ai.Bot-t.me](https://ai.bot-t.me)
