@@ -2,10 +2,9 @@
 ## 项目来源
 - 源自项目仓库: [Chanzhaoyu](https://github.com/Chanzhaoyu/chatgpt-web)
 
-- 此项目是基于: [Kerwin1202](https://github.com/Kerwin1202/chatgpt-web)
+- 基于项目仓库: [Kerwin1202](https://github.com/Kerwin1202/chatgpt-web)
 
-## 此项目预览 
-- 续接项目仓库 [Ai.Bot-t.me](https://ai.bot-t.me)
+- 项目预览Web: [Ai.Bot-t.me](https://ai.bot-t.me)
 
 ## 仓库特色功能
 - [ ] 使用 OAuth 实现登录功能
