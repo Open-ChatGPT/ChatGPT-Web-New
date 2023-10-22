@@ -8,9 +8,9 @@
 - 续接项目仓库 [Ai.Bot-t.me](https://ai.bot-t.me)
 
 ## 仓库特色功能
-- ［0］使用 OAuth 实现登录功能
-2. 更新 UI 框架
-3. 添加 OpenAI ChatGPT 插件功能
+- [ ] 使用 OAuth 实现登录功能
+- [ ] 更新 UI 框架
+- [ ] 添加 OpenAI ChatGPT 插件功能
 - [x] 注册、登录及重置密码
 - [x] 同步历史会话
 - [x] 前端页面设置 API key
