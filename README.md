@@ -76,6 +76,9 @@ pnpm dev
 ```bash
 /service/.env.example
 ```
+### 使用 Railway 部署 
+
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/yytmgc)
 
 ## 打包与部署
 
@@ -94,8 +97,6 @@ docker run --name chatgpt-web --rm -it -p 127.0.0.1:3002:3002 --env OPENAI_API_K
 # 后台运行
 docker run --name chatgpt-web -d -p 127.0.0.1:3002:3002 --env OPENAI_API_KEY=your_api_key chatgpt-web
 ```
-
-### 使用 Railway 部署 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/yytmgc)
 
 ### 手动打包
 
@@ -129,6 +130,3 @@ pnpm build
 
 ## License
 MIT © [Nb112211](./license)
-```
-
-在这个改进的版本中，我为代码块添加了语言标识以实现语法高亮，并为链接添加了明确的文本，同时保持了清晰的分节和空格。这些改进可以帮助提高文档的可读性和整洁度。
