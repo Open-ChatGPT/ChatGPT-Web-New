@@ -1,12 +1,13 @@
 # ChatGPT Web New
+
 ## 项目来源
-- 源自项目仓库: [Chanzhaoyu](https://github.com/Chanzhaoyu/chatgpt-web)
 
-- 基于项目仓库: [Kerwin1202](https://github.com/Kerwin1202/chatgpt-web)
-
-- 项目预览Web: [Ai.Bot-t.me](https://ai.bot-t.me)
+- **源自项目仓库**: [Chanzhaoyu](https://github.com/Chanzhaoyu/chatgpt-web)
+- **基于项目仓库**: [Kerwin1202](https://github.com/Kerwin1202/chatgpt-web)
+- **项目预览Web**: [Ai.Bot-t.me](https://ai.bot-t.me)
 
 ## 仓库特色功能
+
 - [ ] 使用 OAuth 实现登录功能
 - [ ] 更新 UI 框架
 - [ ] 添加 OpenAI ChatGPT 插件功能
@@ -24,13 +25,15 @@
 
 #### Node
 确保您的 Node 版本满足 `^16 || ^18 || ^19` 的要求。
-```plaintext
+
+```bash
 node -v
 ```
 
 #### PNPM
 如果你没有安装过 `pnpm`:
-```plaintext
+
+```bash
 npm install pnpm -g
 ```
 
@@ -38,13 +41,15 @@ npm install pnpm -g
 
 #### 后端
 进入文件夹 `/service` 运行以下命令:
-```plaintext
+
+```bash
 pnpm install
 ```
 
 #### 前端
 根目录下运行以下命令:
-```plaintext
+
+```bash
 pnpm bootstrap
 ```
 
@@ -52,20 +57,23 @@ pnpm bootstrap
 
 #### 后端服务
 进入文件夹 `/service` 运行以下命令:
-```plaintext
+
+```bash
 pnpm start
 ```
 
 #### 前端网页
 根目录下运行以下命令:
-```plaintext
+
+```bash
 pnpm dev
 ```
 
 ## 环境变量
 
 详细的环境变量配置请查看[这里](#环境变量):
-```plaintext
+
+```bash
 /service/.env.example
 ```
 
@@ -74,10 +82,12 @@ pnpm dev
 ### 使用 Docker
 
 #### Docker 参数示例
-![docker](./docs/docker.png)
+
+![Docker参数](./docs/docker.png)
 
 #### Docker build & Run
-```plaintext
+
+```bash
 docker build -t chatgpt-web .
 # 前台运行
 docker run --name chatgpt-web --rm -it -p 127.0.0.1:3002:3002 --env OPENAI_API_KEY=your_api_key chatgpt-web
@@ -85,14 +95,14 @@ docker run --name chatgpt-web --rm -it -p 127.0.0.1:3002:3002 --env OPENAI_API_K
 docker run --name chatgpt-web -d -p 127.0.0.1:3002:3002 --env OPENAI_API_KEY=your_api_key chatgpt-web
 ```
 
-### 使用 Railway 部署
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/yytmgc)
+### 使用 Railway 部署 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/yytmgc)
 
 ### 手动打包
 
 #### 后端服务
 复制 `service` 文件夹到你有 `node` 服务环境的服务器上。
-```plaintext
+
+```bash
 # 安装
 pnpm install
 # 打包
@@ -104,7 +114,8 @@ pnpm prod
 #### 前端网页
 1. 修改根目录下 `.env` 文件中的 `VITE_GLOB_API_URL` 为你的实际后端接口地址
 2. 根目录下运行以下命令，然后将 `dist` 文件夹内的文件复制到你网站服务的根目录下
-```plaintext
+
+```bash
 pnpm build
 ```
 
@@ -118,3 +129,6 @@ pnpm build
 
 ## License
 MIT © [Nb112211](./license)
+```
+
+在这个改进的版本中，我为代码块添加了语言标识以实现语法高亮，并为链接添加了明确的文本，同时保持了清晰的分节和空格。这些改进可以帮助提高文档的可读性和整洁度。
