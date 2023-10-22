@@ -1,16 +1,15 @@
 
 # ChatGPT Web New
 
-此项目是基于 [Kerwin1202/chatgpt-web](https://github.com/Kerwin1202/chatgpt-web) 的一个续接项目。由于原项目长期未更新，我希望通过添加以下功能来继续发展此项目:
+由于原项目长期未更新，我希望通过添加以下功能来继续发展此项目:
 1. 使用 OAuth 实现登录功能
 2. 更新 UI 框架
 3. 添加 OpenAI ChatGPT 插件功能
 
 以上功能尚未实现。
-
 ## 项目来源
-- 原项目地址: [Kerwin1202/chatgpt-web](https://github.com/Kerwin1202/chatgpt-web)
-- 我的续接项目地址: [Chanzhaoyu/chatgpt-web](https://github.com/Chanzhaoyu/chatgpt-web)
+- 源项目: [Chanzhaoyu](https://github.com/Chanzhaoyu/chatgpt-web)
+- 此项目是基于 [Kerwin1202](https://github.com/Kerwin1202/chatgpt-web)
 
 ## 特色功能
 - [x] 注册、登录及重置密码
