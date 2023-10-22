@@ -11,7 +11,7 @@
 	<title>${SITE_TITLE}</title>
 </head>
 
-<body class="dark:bg-black">
+<body>
 	<div id="app">
 		<style>
 			.loading-wrap {
@@ -47,9 +47,7 @@
 			}
 
 			@keyframes left-swing {
-
-				50%,
-				100% {
+				50%, 100% {
 					transform: translateX(95%);
 				}
 			}
@@ -58,7 +56,6 @@
 				50% {
 					transform: translateX(-95%);
 				}
-
 				100% {
 					transform: translateX(100%);
 				}
@@ -67,6 +64,12 @@
 			@media (prefers-color-scheme: dark) {
 				body {
 					background: #121212;
+				}
+			}
+
+			@media (prefers-color-scheme: light) {
+				body {
+					background: #ffffff;
 				}
 			}
 		</style>
