@@ -1,17 +1,19 @@
-
 # ChatGPT Web New
+## 项目来源
+- 源自项目仓库: [Chanzhaoyu](https://github.com/Chanzhaoyu/chatgpt-web) [项目预览](https://github.com/Chanzhaoyu/chatgpt-web)
 
+
+## 此项目预览 
+- 续接项目仓库 [Ai.Bot-t.me](https://ai.bot-t.me)
 由于原项目长期未更新，我希望通过添加以下功能来继续发展此项目:
 1. 使用 OAuth 实现登录功能
 2. 更新 UI 框架
 3. 添加 OpenAI ChatGPT 插件功能
 
 以上功能尚未实现。
-## 项目来源
-- 源项目: [Chanzhaoyu](https://github.com/Chanzhaoyu/chatgpt-web)
-- 此项目是基于 [Kerwin1202](https://github.com/Kerwin1202/chatgpt-web)
 
-## 特色功能
+
+## 仓库特色功能
 - [x] 注册、登录及重置密码
 - [x] 同步历史会话
 - [x] 前端页面设置 API key
@@ -19,16 +21,6 @@
 - [x] 每个会话设置独有 Prompt
 - [x] 用户管理
 - [x] 多 Key 随机
-
-## 截图
-
-![cover3](./docs/login.jpg)
-![cover](./docs/c1.png)
-![cover2](./docs/c2.png)
-![cover3](./docs/basesettings.jpg)
-![cover3](./docs/prompt.jpg)
-![cover3](./docs/user-manager.jpg)
-![cover3](./docs/key-manager.jpg)
 
 ## 安装与运行
 
